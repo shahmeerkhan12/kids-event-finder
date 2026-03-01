@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #f59e0b;
+  --primary-dark: #d97706;
+  --accent: #8b5cf6;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #fffbeb;
+}
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
+
+/* Custom scrollbar for chat */
+.chat-scroll::-webkit-scrollbar { width: 4px; }
+.chat-scroll::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 2px; }
+
+/* Event card hover */
+.event-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
