@@ -1,2 +1,2 @@
 # kids-event-finder
-Complete.AI hackathon project
+Complete hackathon project
